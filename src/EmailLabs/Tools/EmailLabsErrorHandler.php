@@ -65,4 +65,11 @@ class EmailLabsErrorHandler{
         }
     }
 
+    /**
+     * Method destroy errors array
+     */
+    public static function destroyErrors()
+    {
+        self::$errors = [];
+    }
 }
